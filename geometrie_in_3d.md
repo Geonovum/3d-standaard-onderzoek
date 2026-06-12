@@ -4,7 +4,7 @@
 De Boundary Representation methode beschrijft een 3D-volume door de geometrie die het 3D volume begrenst. Dit komt sterk overeen met de manier waarop de Geo-standaarden voor geometrie ook werken. De IFC-geometrie waarmee men een 3D-boundary representation kan maken kent geometrie-typen die in de Geo-standaarden niet ondersteund worden. 
 
 <figure id="Advanced_Brep">
-      <img src="../media/Advanced BRep in IFC.png" alt="Advanced_Brep>
+      <img src="media/Advanced BRep in IFC.png" alt="Advanced_Brep">
       <figcaption>
         <a class="self-link" href="#fig-Advanced_Brep"></bdi></a>
         <span class="fig-title">
@@ -19,7 +19,7 @@ De Boundary Representation methode beschrijft een 3D-volume door de geometrie di
 Daarnaast kent IFC de methode om op basis van 3D-primitieven en boolean operations tot de juiste 3D-vorm te komen. IFC 4x3 kent onderstaande primitieven:
 
 <figure id="3DPrimitives">
-      <img src="../media/Ifc3DPrimitives.png" alt="3DPrimitives">
+      <img src="media/Ifc3DPrimitives.png" alt="3DPrimitives">
       <figcaption>
         <a class="self-link" href="#fig-3DPrimitives"></bdi></a>
         <span class="fig-title">
@@ -33,7 +33,7 @@ Daarnaast kent IFC de methode om op basis van 3D-primitieven en boolean operatio
 Deze primitieven kan men samenvoegen, de overlappende delen behouden of de verschillen behouden. 3D primitieven met Union, Intersection en Difference kunnen resulteren in complexe geometrie die met een Boundary representation methode veel meer data kost om dezelfde vormen te beschrijven.
 
 <figure id="CSG">
-      <img src="../media/Constructive Solid Geometry.png" alt="CSG">
+      <img src="media/Constructive Solid Geometry.png" alt="CSG">
       <figcaption>
         <a class="self-link" href="#fig-CSG"></bdi></a>
         <span class="fig-title">
@@ -48,7 +48,7 @@ Deze primitieven kan men samenvoegen, de overlappende delen behouden of de versc
 Tenslotte kent IFC een Sweep Volume om 3D geometrie te duiden. Met deze methodiek definieert men een vlak die men over een bepaald pad kan extruderen.
 
 <figure id="Sweep_volume">
-      <img src="../media/sweep volumes.png" alt="Sweep_volume">
+      <img src="media/sweep volumes.png" alt="Sweep_volume">
       <figcaption>
         <a class="self-link" href="#fig-Sweep_volume"></bdi></a>
         <span class="fig-title">
@@ -65,7 +65,7 @@ Als een IFC-bestand impliciete geometrie bevat, en conversie gewenst is. Dient i
 
 
 <figure id="Mesh_van_Geometrie">
-      <img src="../media/Mesh_van_Geometrie.png" alt="Mesh_van_Geometrie">
+      <img src="media/Mesh_van_Geometrie.png" alt="Mesh_van_Geometrie">
       <figcaption>
         <a class="self-link" href="#fig-Mesh_van_Geometrie"></bdi></a>
         <span class="fig-title">

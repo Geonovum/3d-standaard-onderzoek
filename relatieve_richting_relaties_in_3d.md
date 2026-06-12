@@ -4,7 +4,7 @@ Topologische relaties beschrijven de relaties tussen objecten onafhankelijk van 
 Deze relatieve locatie in combinatie met de topologische telaties is beschreven door Anne Göbels en Jakob Beetz in de [Reloc ontology](https://annegoebels.github.io/reloc/).
 
 <figure id="Reloc_ontology">
-      <img src="../media/reloc_ontology.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 600px; height: auto; display: block;"/>
+      <img src="media/reloc_ontology.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 600px; height: auto; display: block;"/>
     <figcaption><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_3D"></bdi></a> <span class="fig-title">
         De <a href="https://ceur-ws.org/Vol-3824/paper7.pdf" target="_blank">Reloc ontology</a> beschreven door Anne Göbels en Jakob Beetz.
         </span></figcaption>
@@ -13,7 +13,7 @@ Deze relatieve locatie in combinatie met de topologische telaties is beschreven 
 Deze ontologie brengt de natuurlijke taal dichter bij het 3D-model door een formalisatie van de beschrijving in relatieve richting en topologie. 
 
 <figure id="Relatieve richting relaties">
-      <img src="../media/Brugmodel_Relatieve_Richting_Relatie.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;"/>
+      <img src="media/Brugmodel_Relatieve_Richting_Relatie.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;"/>
     <figcaption><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_3D"></bdi></a><span class="fig-title">Relatieve richting relaties"</span></figcaption>
 </figure>
 
