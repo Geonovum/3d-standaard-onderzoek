@@ -1,1 +1,1 @@
-TODO: vul in abstract.md een abstract in.
+Dit document bevat een aantal hoofdstukken met resultaten van bureauonderzoek dat is gedaan in het kader van het ontwikkelen van een 3D standaard voor de Nederlandse geobasisregistraties. Het gaat in op 3D functies en topologie in implementaties, benaderingen om geometrie uit te drukken, relatieve richting relaties en 3D topologische relaties.
