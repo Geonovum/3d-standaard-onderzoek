@@ -7079,20 +7079,20 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 <section id="verschillende-geometrie-benaderingen"><div class="header-wrapper"><h2 id="x3-verschillende-geometrie-benaderingen"><bdi class="secno">3. </bdi>Verschillende geometrie benaderingen</h2><a class="self-link" href="#verschillende-geometrie-benaderingen" aria-label="Permalink for Section 3."></a></div>
 <section id="boundary-representation"><div class="header-wrapper"><h3 id="x3-1-boundary-representation"><bdi class="secno">3.1 </bdi>Boundary Representation</h3><a class="self-link" href="#boundary-representation" aria-label="Permalink for Section 3.1"></a></div>
 <p>De Boundary Representation methode beschrijft een 3D-volume door de geometrie die het 3D volume begrenst. Dit komt sterk overeen met de manier waarop de Geo-standaarden voor geometrie ook werken. De IFC-geometrie waarmee men een 3D-boundary representation kan maken kent geometrie-typen die in de Geo-standaarden niet ondersteund worden. </p>
-<figure id="Advanced_Brep" class="respec-offending-element" title="Found a `&lt;figure&gt;` without a `&lt;figcaption&gt;`.">
-      <img src="../media/Advanced BRep in IFC.png" alt="Advanced_Brep&gt;
-      &lt;figcaption&gt;
-        &lt;a class=" self-link"="" href="#fig-Advanced_Brep">
+<figure id="Advanced_Brep">
+      <img src="media/Advanced BRep in IFC.png" alt="Advanced_Brep">
+      <figcaption><a class="self-link" href="#Advanced_Brep">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">
+        <a class="self-link" href="#fig-Advanced_Brep"></a>
         <span class="fig-title">
         Advanced BRep in IFC gebruik makend van NURBS-curves voor de definitie van de boundary surfaces. <br> 
         bron:
         <a href="https://ifc43-docs.standards.buildingsmart.org/" target="_blank">Building Smart International</a>
         </span>
-      
+      </span></figcaption>
 </figure></section><section id="constructieve-solid-geometrie"><div class="header-wrapper"><h3 id="x3-2-constructieve-solid-geometrie"><bdi class="secno">3.2 </bdi>Constructieve Solid Geometrie</h3><a class="self-link" href="#constructieve-solid-geometrie" aria-label="Permalink for Section 3.2"></a></div>
 <p>Daarnaast kent IFC de methode om op basis van 3D-primitieven en boolean operations tot de juiste 3D-vorm te komen. IFC 4x3 kent onderstaande primitieven:</p>
 <figure id="3DPrimitives">
-      <img src="../media/Ifc3DPrimitives.png" alt="3DPrimitives">
+      <img src="media/Ifc3DPrimitives.png" alt="3DPrimitives">
       <figcaption><a class="self-link" href="#3DPrimitives">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">
         <a class="self-link" href="#fig-3DPrimitives"></a>
         <span class="fig-title">
@@ -7103,7 +7103,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
       </span></figcaption>
 </figure><p>Deze primitieven kan men samenvoegen, de overlappende delen behouden of de verschillen behouden. 3D primitieven met Union, Intersection en Difference kunnen resulteren in complexe geometrie die met een Boundary representation methode veel meer data kost om dezelfde vormen te beschrijven.</p>
 <figure id="CSG">
-      <img src="../media/Constructive Solid Geometry.png" alt="CSG">
+      <img src="media/Constructive Solid Geometry.png" alt="CSG">
       <figcaption><a class="self-link" href="#CSG">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">
         <a class="self-link" href="#fig-CSG"></a>
         <span class="fig-title">
@@ -7115,7 +7115,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 </figure></section><section id="constructieve-solid-geometrie-0"><div class="header-wrapper"><h3 id="x3-3-constructieve-solid-geometrie"><bdi class="secno">3.3 </bdi>Constructieve Solid Geometrie</h3><a class="self-link" href="#constructieve-solid-geometrie-0" aria-label="Permalink for Section 3.3"></a></div>
 <p>Tenslotte kent IFC een Sweep Volume om 3D geometrie te duiden. Met deze methodiek definieert men een vlak die men over een bepaald pad kan extruderen.</p>
 <figure id="Sweep_volume">
-      <img src="../media/sweep volumes.png" alt="Sweep_volume">
+      <img src="media/sweep volumes.png" alt="Sweep_volume">
       <figcaption><a class="self-link" href="#Sweep_volume">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">
         <a class="self-link" href="#fig-Sweep_volume"></a>
         <span class="fig-title">
@@ -7127,7 +7127,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 </figure><p>Omdat er zoveel verschillende manieren van het definieren van 3D geometrie in IFC zijn zijn er weinig applicaties en viewers die met al deze geometrieën om kunnen gaan. Het is mogelijk om de diversiteit van geometrie te reduceren door geometrie om te rekenen. </p>
 <p>Als een IFC-bestand impliciete geometrie bevat, en conversie gewenst is. Dient impliciete geometrie, expliciet gemaakt te worden door benadering. Geometrie kan men omrekenen naar meshes en boundary representation (Brep). Deze benaderingen komen vaak redelijk dicht bij het originele model, maar er zijn verschillen. Meestal zijn de ruimtelijke verschillen klein en verwaarloosbaar voor de meeste GIS-toepassingen.</p>
 <figure id="Mesh_van_Geometrie">
-      <img src="../media/Mesh_van_Geometrie.png" alt="Mesh_van_Geometrie">
+      <img src="media/Mesh_van_Geometrie.png" alt="Mesh_van_Geometrie">
       <figcaption><a class="self-link" href="#Mesh_van_Geometrie">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">
         <a class="self-link" href="#fig-Mesh_van_Geometrie"></a>
         <span class="fig-title">
@@ -9101,13 +9101,13 @@ Men heeft hierbij geen grip op de instellingen en kwaliteit van de output. Dit i
 <p>Topologische relaties beschrijven de relaties tussen objecten onafhankelijk van het perspectief. Relatieve richting relaties geven relaties tussen objecten afhankelijke van het perspectief. In 2D kan men volstaan met links van, boven, naast etc. In 3D komen daar relaties bij als: boven/onder, voor/achter. De relatieve richting relaties helpen ook in 2D om context te geven, maar topologie (binnen, raak, overlap) dekt veel situaties. In 3D-omgevingen worden directionele relaties belangrijker, omdat hoogte en diepte extra dimensies introduceren die topologie alleen niet kan onderscheiden. Om te definieren dat een <em>"Schade onderin een burgdek zit"</em> is zowel een topologische relatie nodig ((3d)Containes) als de relatieve richting relatie (onder).</p>
 <p>Deze relatieve locatie in combinatie met de topologische telaties is beschreven door Anne Göbels en Jakob Beetz in de <a href="https://annegoebels.github.io/reloc/">Reloc ontology</a>.</p>
 <figure id="Reloc_ontology">
-      <img src="../media/reloc_ontology.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 600px; height: auto; display: block;">
+      <img src="media/reloc_ontology.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 600px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Reloc_ontology">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_3D"></a> <span class="fig-title">
         De <a href="https://ceur-ws.org/Vol-3824/paper7.pdf" target="_blank">Reloc ontology</a> beschreven door Anne Göbels en Jakob Beetz.
         </span></span></figcaption>
 </figure><p>Deze ontologie brengt de natuurlijke taal dichter bij het 3D-model door een formalisatie van de beschrijving in relatieve richting en topologie. </p>
 <figure id="Relatieve richting relaties">
-      <img src="../media/Brugmodel_Relatieve_Richting_Relatie.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Brugmodel_Relatieve_Richting_Relatie.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Relatieve richting relaties">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_3D"></a><span class="fig-title">Relatieve richting relaties"</span></span></figcaption>
 </figure><p>Dit biedt kansen voor Artificiele Inteligentie en Large Language Models. LLM's begrijpen teksten als "schade op het voorste deel van de tweede overspaning, aan de linkerzijde van de onderkant". LLM's weten echter niet waar dit in een 3D-model zit. Initiatieven als een RELOC ontology vertalen de tekst naar formele 3D-relaties.</p>
 </section>
@@ -9117,24 +9117,24 @@ Men heeft hierbij geen grip op de instellingen en kwaliteit van de output. Dit i
 <section id="de-9im"><div class="header-wrapper"><h3 id="x5-1-de-9im"><bdi class="secno">5.1 </bdi>DE-9IM</h3><a class="self-link" href="#de-9im" aria-label="Permalink for Section 5.1"></a></div>
 <p>Het DE-9IM splitst geometrie op in binnen (interior), grens (boundary) en buiten (exterior). Het model voorziet naast 2D vlakken ook in andere dimensies zoals 0D punten, 1D lijnen en 3D volumes. </p>
 <figure id="Binnen-buiten-grens-van-geometrie">
-      <img src="../media/Grens-Binnen-Buiten-Geometrie.png" alt="Binnen, buiten en grens van geometrie" width="700">
+      <img src="media/Grens-Binnen-Buiten-Geometrie.png" alt="Binnen, buiten en grens van geometrie" width="700">
     <figcaption><a class="self-link" href="#Binnen-buiten-grens-van-geometrie">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Binnen-buiten-grens-van-geometrie"></a><span class="fig-title">Binnen, buiten en grens van geometrie</span></span></figcaption>
 </figure><p>De topologische relatie tussen twee geometrieën wordt bepaald door te kijken of en hoe grens, binnen en buiten elkaar snijden. Niet of wel, en als wel met welke dimensie. In het DE-9IM-model wordt de topologische relatie bepaald door de 3×3-matrix van intersecties tussen interieur, grens en exterieur. Een punt heeft geen grens, een lijn heeft een set van eindpunten als grens, een vlak heeft een gesloten lijn als grens en een volume heeft een vlak als grens. </p>
 <div id="tabel-DE-9IM voor vlakken en volumes" style="display: flex; flex-wrap: nowrap; gap: 1em; justify-content: center;">
 <figure id="Intersectie_model_2D">
-      <img src="../media/Intersectie_model_2D.png" alt="Intersectie model 2D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Intersectie_model_2D.png" alt="Intersectie model 2D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Intersectie_model_2D">Figuur <bdi class="figno">9</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Topologische_Relaties_in_2D"></a><span class="fig-title">Intersectiemodel van twee 2D vlakken die overlappen</span></span></figcaption>
 </figure><figure id="Intersectie_model_3D">
-      <img src="../media/Intersectie_model_3D.png" alt="Intersectie model in 3D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Intersectie_model_3D.png" alt="Intersectie model in 3D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Intersectie_model_3D">Figuur <bdi class="figno">10</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Topologische_Relaties_in_3D"></a><span class="fig-title">Intersectiemodel van 3D volumes die overlappen</span></span></figcaption>
 </figure>
 </div><p>De patronen van de matrix van de intersecties definiëren bijvoorbeeld onderstaande relaties:  </p>
 <div id="2D_vlakken_en_3D_volumen_topologische_relaties" style="display: flex; flex-wrap: nowrap; gap: 1em; justify-content: center;">
 <figure id="Topologische_Relaties_2D_vlakken">
-      <img src="../media/Topologische_relaties_2D_vlakken.png" alt="Topologische relaties in 3D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Topologische_relaties_2D_vlakken.png" alt="Topologische relaties in 3D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Topologische_Relaties_2D_vlakken">Figuur <bdi class="figno">11</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Topologische_Relaties_in_3D"></a><span class="fig-title">Topologische relatie van twee vlakken</span></span></figcaption>
 </figure><figure id="Topologische_Relaties_3D_volumes">
-      <img src="../media/Topologische_relaties_3D_volumes.png" alt="Topologische relaties in 3D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Topologische_relaties_3D_volumes.png" alt="Topologische relaties in 3D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Topologische_Relaties_3D_volumes">Figuur <bdi class="figno">12</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Topologische_Relaties_in_3D"></a><span class="fig-title">Topologische relatie van twee 3D volumes</span></span></figcaption>
 </figure>
 </div><p>Deze relaties zijn in de simple features access formeel gedefinieerd voor 2D‑geometrieën Ondanks dat het mogelijk is om de intersectierelaties toe te passen in 3D. </p>
@@ -9217,10 +9217,10 @@ This will give a different result than would be obtained if the full 3D geometry
 <p>De definities van ruimtelijke relaties en analyses in 2D en 3D kunnen tot verwarring leiden. Als men 2 3D-geometriën bevraagt op de topologische relatie en het antwoord is "Overlaps" kan het onduidelijk zijn wat hier mee bedoeld wordt. Ook vragen als wat is de "Distance" tussen deze twee geometriën kan verkeerd worden geïnterpreteerd.</p>
 <div id="2d vs 3d topologische relaties" style="display: flex; flex-wrap: nowrap; gap: 1em; justify-content: center;">
 <figure id="3D_vs_2D_geometrie_disjoint_vs_overlap">
-      <img src="../media/3D vs 2D geometrie disjoint vs overlap.png" alt="3D vs 2D project Disjoint vs Overlap" style="width: 700px; height: auto; display: block;">
+      <img src="media/3D vs 2D geometrie disjoint vs overlap.png" alt="3D vs 2D project Disjoint vs Overlap" style="width: 700px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_vs_2D_geometrie_disjoint_vs_overlap">Figuur <bdi class="figno">13</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_vs_2D_geometrie_disjoint_vs_overlap"></a><span class="fig-title">3D vs 2D project Disjoint vs Overlap"</span></span></figcaption>
 </figure><figure id="3D_vs_2D_geometrie_distance">
-      <img src="../media/3D vs 2D geometrie distance.png" alt="3D vs 2D project Disjoint vs Overlap" style="width: 700px; height: auto; display: block;">
+      <img src="media/3D vs 2D geometrie distance.png" alt="3D vs 2D project Disjoint vs Overlap" style="width: 700px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_vs_2D_geometrie_distance">Figuur <bdi class="figno">14</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_vs_2D_geometrie_disjoint_vs_overlap"></a><span class="fig-title">3D vs 2D project Disjoint vs Overlap"</span></span></figcaption>
 </figure>
 </div></section><section id="iso-191007"><div class="header-wrapper"><h3 id="x5-4-iso-191007"><bdi class="secno">5.4 </bdi>ISO 191007</h3><a class="self-link" href="#iso-191007" aria-label="Permalink for Section 5.4"></a></div>
@@ -9327,21 +9327,21 @@ De grens van een volume is een vlak, de grens van een vlak is een lijn, de grens
   <p><strong>AANBEVELING:</strong> Stel nieuwe 3D topologische relaties op voor 3D basisregistraties die bijvoorbeeld vlakdekkend dienen te zijn. </p>
 </aside></div><p>De hierboven besproken 3D topologische relaties kan men inzetten. In twee dimensies is de variatie aan mogelijke verbindingen beperkter dan in drie dimensies. De overgang naar 3D introduceert nieuwe topologische vrijheidsgraden die leiden tot een aanzienlijk rijkere verzameling van mogelijke “meets/touches”-situaties. De vraag is of er voldoende betekenis te geven is met de hierboven beschreven 3D-topologische relaties. Onderstaande voorbeelden kennen allen de topologische relatie "Meet/Touches (grenst aan)"</p>
 <figure id="Topologische_Relatie_3D_grenst_aan">
-      <img src="../media/3D_Topologische_relatie_grenst_aan.png" alt="Topologische relaties 3D grenst aan" style="width: 700px; height: auto; display: block;">
+      <img src="media/3D_Topologische_relatie_grenst_aan.png" alt="Topologische relaties 3D grenst aan" style="width: 700px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#Topologische_Relatie_3D_grenst_aan">Figuur <bdi class="figno">15</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Topologische_Relaties_in_3D"></a><span class="fig-title">Zes voorbeelden van een zelfde topologische relaties "grenst aan"</span></span></figcaption>
 </figure></section></section><section id="praktijkvoorbeeld"><div class="header-wrapper"><h3 id="x5-5-praktijkvoorbeeld"><bdi class="secno">5.5 </bdi>Praktijkvoorbeeld</h3><a class="self-link" href="#praktijkvoorbeeld" aria-label="Permalink for Section 5.5"></a></div>
 <p>Om het gebruik van topologische relaties te verduidelijken, is een praktijkvoorbeeld uitgewerkt. Dit laat zien hoe ruimtelijke objecten zich tot elkaar verhouden en hoe deze relaties in de praktijk worden toegepast.</p>
 <figure id="3D_Infrastructureel_werk">
-      <img src="../media/Brugmodel_leeg.png" alt="3D_Infrastructureel_werk" style="width: 400px; height: auto; display: block;">
+      <img src="media/Brugmodel_leeg.png" alt="3D_Infrastructureel_werk" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_Infrastructureel_werk">Figuur <bdi class="figno">16</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk"></a><span class="fig-title">Een voorbeeld model van een viaduct over een snelweg"</span></span></figcaption>
 </figure><p>Dit kan men zowel uitdrukken in IFC als in CityGML:</p>
 <div id="tabel-DE-9IM voor vlakken en volumes" style="display: flex; flex-wrap: nowrap; gap: 1em; justify-content: center;">
 <figure id="3D_Infrastructureel_werk_CityGML">
-      <img src="../media/Brugmodel_CityGML.png" alt="3D Infrastructureel model IFC" style="width: 700px; height: auto; display: block;">
+      <img src="media/Brugmodel_CityGML.png" alt="3D Infrastructureel model IFC" style="width: 700px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_Infrastructureel_werk_CityGML">Figuur <bdi class="figno">17</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_CityGML"></a><span class="fig-title">CityGML-concepten waarmee men een model van een viaduct over een snelweg kan modelleren"</span></span></figcaption>
 </figure>
 <figure id="3D_Infrastructureel_werk_IFC">
-      <img src="../media/Brugmodel_IFC.png" alt="3D Infrastructureel model IFC" style="width: 700px; height: auto; display: block;">
+      <img src="media/Brugmodel_IFC.png" alt="3D Infrastructureel model IFC" style="width: 700px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_Infrastructureel_werk_IFC">Figuur <bdi class="figno">18</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_IFC"></a><span class="fig-title">IFC-concepten waarmee men een model van een viaduct over een snelweg kan modelleren"</span></span></figcaption>
 </figure>
 </div><p>De elementen in CityGML en IFC zijn als volgt: </p>
@@ -9437,10 +9437,10 @@ De grens van een volume is een vlak, de grens van een vlak is een lijn, de grens
 </tr></tbody></table><p>Ten behoeve van consistentie van vlakdekkende kaarten zoals de BGT of ten behoeve van clashdetecties zijn topologische relaties als overlap, touches en disjoint belangrijk. De 2D en 3D topologische relaties tussen de elementen van deze praktijkcases verschillen. Een 3D standaard moet voorkomen dat (menselijke) interpretatie afhangt van projecties. Goed gedefinieerde 3D-topologische afspraken maken ruimtelijke relaties eenduidig en interpreteerbaar, waardoor ze zowel door mensen als machines begrepen kunnen worden.</p>
 <div id="Brugmodel Topologisch_2D en 3D" style="display: flex; flex-wrap: nowrap; gap: 1em; justify-content: center;">
 <figure id="3D_Infrastructureel_werk_Topologisch_2D">
-      <img src="../media/Brugmodel_Topologisch_2D.png" alt="3D Infrastructureel model Topologisch 2D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Brugmodel_Topologisch_2D.png" alt="3D Infrastructureel model Topologisch 2D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_Infrastructureel_werk_Topologisch_2D">Figuur <bdi class="figno">19</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_2D"></a><span class="fig-title">Topologisch 2D spatial operators voor een 3D model"</span></span></figcaption>
 </figure><figure id="3D_Infrastructureel_werk_Topologisch_3D">
-      <img src="../media/Brugmodel_Topologisch_3D.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;">
+      <img src="media/Brugmodel_Topologisch_3D.png" alt="3D Infrastructureel model Topologisch 3D" style="width: 400px; height: auto; display: block;">
     <figcaption><a class="self-link" href="#3D_Infrastructureel_werk_Topologisch_3D">Figuur <bdi class="figno">20</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-3D_Infrastructureel_werk_Topologisch_3D"></a><span class="fig-title">Topologisch 3D spatial operators voor een 3D model"</span></span></figcaption>
 </figure>
 </div></section><section id="geometrische-inbedding-en-co-dimensie"><div class="header-wrapper"><h3 id="x5-6-geometrische-inbedding-en-co-dimensie"><bdi class="secno">5.6 </bdi>Geometrische inbedding en Co-dimensie</h3><a class="self-link" href="#geometrische-inbedding-en-co-dimensie" aria-label="Permalink for Section 5.6"></a></div>
@@ -9454,7 +9454,7 @@ De grens van een volume is een vlak, de grens van een vlak is een lijn, de grens
 <p>Hiermee verandert men de ruimte én men verliest informatie van het object zelf. Het beeld ligt in een lagere-dimensionale ruimte. Dit noemt men projectie. </p>
 <p>Een 0D punt kan bestaan in een 0D, 1D, 2D, 3D, nD ruimte. Andersom kan dat niet. Zo kan een 1D lijn kan niet bestaan in een 0D ruimte aangezien een 0D ruimte bestaat uit één enkel punt. Er is daarmee geen vrijheidsgraag om een lijn te vormen. 
 Het verschil tussen de dimensie van de geometrie en de ruimte waarin deze geometrie zich bevindt noemt men de Co-dimensie. Het geeft het aantal onafhankelijke richtingen aan die niet in het object liggen.</p>
-<p><img src="../media/co-dimensie.png" alt="Overzicht van verschillende co-dimensies tussen object en ruimte"></p>
+<p><img src="media/co-dimensie.png" alt="Overzicht van verschillende co-dimensies tussen object en ruimte"></p>
 <p>De mogelijke topologische relaties hangen af van de de ruimte waarin men werkt en de dimensie van de objecten. </p>
 <p>Voor twee Punten (0D) in een 0D-ruimte bestaat de topologische relatie Equals. Deze is altijd waar. Een aantal topologische relaties zijn niet mogelijk in deze ruimte. In ruimten met hogere dimensie (2D - 3D) kunnen twee Punten (0D) ook Disjoint zijn. Dit kan in de 0D-ruimte niet.</p>
 <p>Tussen twee lijnsegmenten (1D) in een 1D ruimte zijn de topologische relaties disjoint, contains, inside, equal, meet, covers, coveredBy en overlap mogelijk. Twee lijnsegmenten in een 2D ruimte krijgen ook de mogelijkheid om cross als topologische relatie te hebben. Daarnaast is het mogelijk dat de lijnen parallel zijn. Twee lijnsegmenten (2D) in 3D ruimte kunnen ook skew zijn (niet snijdend, niet parallel, niet in één vlak). Dit kan in de 2D-ruimte niet. </p>
@@ -9516,7 +9516,7 @@ In 3D kunnen ze ook “skew” zijn (niet snijden en niet parallel)</p>
 </blockquote>
 <p>In het stuk van Sisi Zlatanova <a href="https://gdmc.nl/publications/2000/3D_topological_relationships.pdf">On 3D Topological Relationships</a> wordt dit uiteengezet. </p>
 <p>Onderstaand voorbeeld geeft het verschil in mogelijke relaties tussen 2D en 3D weer. Alle relaties in de in aanzicht getekende platte vlakken zijn mogelijk in 2D en 3D. Alle in 3D getekende relaties zijn alleen mogelijk in 3D. </p>
-<p><img src="../media/Surface_and_Line_Topological_Relations_in_2D_and_3D_Space.png" alt="Topologische relatie tussen een vlak en een lijn in 2D en 3D ruimte"></p>
+<p><img src="media/Surface_and_Line_Topological_Relations_in_2D_and_3D_Space.png" alt="Topologische relatie tussen een vlak en een lijn in 2D en 3D ruimte"></p>
 <p>Wanneer er (2D) achter staat, dan is het ook in 3D (embed). Maar als het in 3D is, dan is het niet perse zo in 2D (projectie).</p>
 <p>De relatie is bijvoorbeeld van vlak naar lijn. </p>
 <p>R031 (2D) - Disjoint (2D en 3D)<br>R127 - Dit heeft nog geen topologische relatie.<br>R223 (2D) - Inside<br>R287 (2D) - Touch<br>R375  - Dit heeft geen topologische relatie.<br>R439 - Covers?<br>R055 - Geen topologische relatie.<br>R159 - Crosses<br>R243 (2D)- Crosses?<br>R311 - Geen topologische relatie<br>R403 (2D) - Equal<br>R467 (2D) - CoveredBy<br>R063 - Geen topologische relatie<br>R179 (2D) - Contains<br>R247 (2D) - Crosses?<br>R339 (2D) - Dit heeft geen topologische relatie<br>R407 - Equal<br>R471 (2D) - CoveredBy<br>R479 (2D) - CoveredBy<br>R095 (2D) - Geen topologische relatie<br>R183 - Contains<br>R255 (2D) - Crosses?<br>R343 (2D) - Geen topologische relatie<br>R415 - Equal<br>R499 (2D) - Overlaps<br>R119 - Geen topologische relatie<br>R191 - Contains<br>R279 (2D) - Touch<br>R351 (2D) - Geen topologische relatie<br>R435 (2D) - Covers<br>R503 (2D) - Overlaps  </p>
@@ -9590,7 +9590,7 @@ In 3D kunnen ze ook “skew” zijn (niet snijden en niet parallel)</p>
 <p>Pas als de twee punten echt 3D zijn, zoals het punt (1,1,1) en een punt (4,5,6). Dan geeft de Query3D een ander resultaat.  </p>
 <p>De topologische mogelijkheden in 3D t.o.v. 2D zijn anders. De formules die men kan gebruiken voor controle van topologie in 2D t.o.v 3D zijn anders. Tenslotte zijn de algoritmen, de opeenvolging van analyses die uitgevoerd dienen te worden voor het analyseren van topologische relaties, in 2D en 3D anders. </p>
 <p>Vandaar dat de ISO19107 onderscheid maakt in Query2D functies en Query3D functies.</p>
-<p><img src="../media/ISO_19107_Query2D_and_Query3D.png" alt="ISO19107 Query2D en Query3D familie"></p>
+<p><img src="media/ISO_19107_Query2D_and_Query3D.png" alt="ISO19107 Query2D en Query3D familie"></p>
 <p>Twee Polygon Z objecten </p>
 <pre><code aria-busy="false" class="hljs javascript">  <span class="hljs-string">'POLYGON Z ((0 0 0,10 0 0,10 10 0,0 10 0,0 0 0))'</span>
 
@@ -9599,7 +9599,7 @@ In 3D kunnen ze ook “skew” zijn (niet snijden en niet parallel)</p>
   <span class="hljs-string">'POLYGON Z ((0 0 10,10 0 10,10 10 10, 0 10 10,0 0 10))'</span>
 </code></pre>
 <p>De vraag is, zijn deze disjoint? </p>
-<p><img src="../media/Polygon_Z_In_2D_en_3D_In_QGIS.png" alt="Twee polygon_Z vlakken in 2D en 3D omgeving in QGIS"></p>
+<p><img src="media/Polygon_Z_In_2D_en_3D_In_QGIS.png" alt="Twee polygon_Z vlakken in 2D en 3D omgeving in QGIS"></p>
 <p>Deze twee vlakken zijn in een 2D ruimte met Query2D niet disjoint. Want de Z waarde wordt genegeerd.</p>
 <p>Deze twee vlakken zijn in een 3D ruimte met Query2D niet disjoint. Want de Query2D functie gaat uit van een projectie van geometrie. </p>
 <p>Deze twee vlakken zijn in een 3D ruimte met Query3D wel disjoint. </p>
@@ -9623,7 +9623,7 @@ In 3D kunnen ze ook “skew” zijn (niet snijden en niet parallel)</p>
 </code></pre>
 <p>Wanneer: </p>
 <figure id="Query2D en Query3D">
-      <img src="../media/Disjoint_with_Query2D_en_Query3D.png" alt="Binnen, buiten en grens van geometrie" width="700">
+      <img src="media/Disjoint_with_Query2D_en_Query3D.png" alt="Binnen, buiten en grens van geometrie" width="700">
     <figcaption><a class="self-link" href="#Query2D en Query3D">Figuur <bdi class="figno">21</bdi></a> <span class="fig-title"><a class="self-link" href="#fig-Binnen-buiten-grens-van-geometrie"></a><span class="fig-title">Query2D en Query3D van Disjoint</span></span></figcaption>
 </figure><p>Query2D test disjointheid in de 2D projectieruimte van de geometrieën, niet in de originele 3D Euclidische ruimte.</p>
 <p>Query2D is een computationele procedure die de topologische relatie tussen geometrieën bepaalt in de geprojecteerde 2D ruimte, niet in de oorspronkelijke 3D ruimte.</p>
@@ -9676,6 +9676,15 @@ Het concept “disjoint” blijft wiskundig onveranderd, maar de betekenis van e
   </ul>
   </section></section><h1>Lijst met figuren</h1><ul class="tof">
         <li class="tofline">
+    <a class="tocxref" href="#Advanced_Brep"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">
+        <span class="self-link"></span>
+        <span class="fig-title">
+        Advanced BRep in IFC gebruik makend van NURBS-curves voor de definitie van de boundary surfaces. <br> 
+        bron:
+        <span target="_blank">Building Smart International</span>
+        </span>
+      </span></a>
+  </li><li class="tofline">
     <a class="tocxref" href="#3DPrimitives"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title">
         <span class="self-link"></span>
         <span class="fig-title">
