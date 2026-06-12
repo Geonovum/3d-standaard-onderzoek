@@ -10,8 +10,157 @@
         "target": [
           ".sidelabel"
         ],
-        "html": "<div class=\"sidelabel\">Geonovum Handreiking - Document</div>",
+        "html": "<div class=\"sidelabel\">Geonovum Algemeen - Document</div>",
         "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.98 (foreground color: #ffffff, background color: #80cc28, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "link-name",
+    "impact": "serious",
+    "description": "Ensure links have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "a[href$=\"#fig-3DPrimitives\"]"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3DPrimitives\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "a[href$=\"#fig-CSG\"]"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-CSG\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "a[href$=\"#fig-Sweep_volume\"]"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Sweep_volume\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "a[href$=\"#fig-Mesh_van_Geometrie\"]"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Mesh_van_Geometrie\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Reloc_ontology > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_Topologisch_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Relatieve\\ richting\\ relaties > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_Topologisch_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Binnen-buiten-grens-van-geometrie > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Binnen-buiten-grens-van-geometrie\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Intersectie_model_2D > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Topologische_Relaties_in_2D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Intersectie_model_3D > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Topologische_Relaties_in_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Topologische_Relaties_2D_vlakken > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Topologische_Relaties_in_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Topologische_Relaties_3D_volumes > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Topologische_Relaties_in_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_vs_2D_geometrie_disjoint_vs_overlap > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_vs_2D_geometrie_disjoint_vs_overlap\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_vs_2D_geometrie_distance > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_vs_2D_geometrie_disjoint_vs_overlap\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Topologische_Relatie_3D_grenst_aan > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Topologische_Relaties_in_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "a[href=\"#fig-3D_Infrastructureel_werk\"]"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_Infrastructureel_werk_CityGML > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_CityGML\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_Infrastructureel_werk_IFC > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_IFC\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_Infrastructureel_werk_Topologisch_2D > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_Topologisch_2D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#\\33 D_Infrastructureel_werk_Topologisch_3D > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-3D_Infrastructureel_werk_Topologisch_3D\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#Query2D\\ en\\ Query3D > figcaption > .fig-title > .self-link"
+        ],
+        "html": "<a class=\"self-link\" href=\"#fig-Binnen-buiten-grens-van-geometrie\"></a>",
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
       }
     ]
   },
@@ -24,9 +173,9 @@
     "nodes": [
       {
         "target": [
-          ".hljs"
+          "pre:nth-child(71) > .hljs.javascript"
         ],
-        "html": "<code aria-busy=\"false\" class=\"hljs xml\">",
+        "html": "<code aria-busy=\"false\" class=\"hljs javascript\">  <span class=\"hljs-string\">'POLYGON Z ((0 0 0,10 0 0,10 10 0,0 10 0,0 0 0))'</span>\n\n  <span class=\"hljs-attr\">en</span>: \n\n  <span class=\"hljs-string\">'POLYGON Z ((0 0 10,10 0 10,10 10 10, 0 10 10,0 0 10))'</span> delen geen enkel punt. \n</code>",
         "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
       }
     ]
